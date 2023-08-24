@@ -34,7 +34,6 @@ function App() {
 
     initWeb3();
   }, []);
-
   return (
     <div className="App">
       <header className="App-header">

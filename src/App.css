@@ -1,57 +1,71 @@
+/* Styles pour l'élément principal de l'application */
 .App {
   text-align: center;
 }
 
+/* Styles pour l'en-tête de l'application */
 .App-header {
-  background-color: #282c34;
+  background-color: #3498db; /* Couleur de fond modifiée */
   padding: 20px;
   color: white;
 }
 
+/* Styles pour le conteneur du contrat */
 .contract-container {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f8f8f8;
+  border: 1px solid #ddd; /* Couleur de la bordure modifiée */
+  border-radius: 8px; /* Rayon de bordure augmenté */
+  background-color: #f0f0f0; /* Couleur de fond modifiée */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre ajoutée */
 }
 
+/* Styles pour le statut de mariage */
 .marriage-status {
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Marge inférieure augmentée */
 }
 
+/* Styles pour le conteneur des boutons */
 .button-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px; /* Marge supérieure ajoutée */
 }
 
+/* Styles pour les boutons de mariage et de divorce */
 .marriage-button,
 .divorce-button {
-  font-size: 16px;
-  padding: 10px 20px;
-  margin: 0 10px;
+  font-size: 18px; /* Taille de police augmentée */
+  padding: 12px 24px; /* Rembourrage ajusté */
+  margin: 0 15px; /* Marge ajustée */
   border: none;
-  border-radius: 5px;
+  border-radius: 6px; /* Rayon de bordure ajusté */
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Effet de transition ajouté */
 }
 
+/* Styles pour le bouton de mariage */
 .marriage-button {
-  background-color: #4caf50;
+  background-color: #2ecc71; /* Couleur de fond modifiée */
   color: white;
 }
 
+/* Styles pour le bouton de divorce */
 .divorce-button {
-  background-color: #f44336;
+  background-color: #e74c3c; /* Couleur de fond modifiée */
   color: white;
 }
 
+/* Styles pour les paragraphes */
 p {
   margin: 0;
-  font-size: 18px;
-  color:black;
+  font-size: 16px; /* Taille de police réduite */
+  color: #333; /* Couleur du texte modifiée */
 }
 
+/* Styles pour les titres de niveau 1 */
 h1 {
-  font-size: 24px;
+  font-size: 28px; /* Taille de police augmentée */
+  margin-bottom: 10px; /* Marge inférieure ajoutée */
 }
