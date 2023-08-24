@@ -1,0 +1,7 @@
+Un contrat MetaCoin sert principalement de point de départ pour comprendre comment fonctionnent les tokens sur Ethereum. Les tests associés garantissent que le contrat fonctionne comme prévu, ce qui est essentiel étant donné que, une fois déployé sur le réseau principal, un contrat ne peut pas être modifié.
+
+ERC-20 désigne un modèle de tokens (monnaie) fondé sur Ethereum, respectant un cahier des charges précis.
+C'est utilisé pour les contrats intelligents sur le réseau Ethereum.
+Utilisé pour définir un ensemble de règles communes pour les smart contracts d’Ethereum qui utilisent cette norme.
+
+Contract : 0x5DA1E1A17c532D83FCBf095C8900C1a7b2369ce4
